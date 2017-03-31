@@ -4,9 +4,13 @@
         <meta charset="utf-8">
         <title>Homework JS-9-10</title>
         <link rel="stylesheet" href="css/kosher-reset.css">
+        <link rel="stylesheet" href="css/uniform.aristo.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="js/jquery.jcarousel.js"></script>
+        <script src="js/jquery.uniform.js"></script>
+        <script src="js/jquery.checkbox.js"></script>
+
         <script src="js/script.js"></script>
     </head>
     <body>
@@ -26,5 +30,49 @@
                 <a href="#">3</a>
             </div>
         </div>
+
+        <form action="#" method="post">
+            <div class="select-box">
+                <select id="countries">
+                    <option value="1">France</option>
+                    <option value="2">England</option>
+                    <option value="3">Germany</option>
+                    <option value="4">USA</option>
+                    <option value="5">Canada</option>
+                </select>
+            </div>
+
+            <div class="jquery-checkbox">
+                <p>jQuery-checkbox</p>
+                <div>
+                    <label for="j1">label 1</label>
+                    <input type="checkbox" class="niceCheck" id="j1" tabindex="1">
+                </div>
+                <div>
+                    <label for="j2">label 2</label>
+                    <input type="checkbox" class="niceCheck" checked="checked" id="j2" tabindex="2" value="2">
+                </div>
+                <div>
+                    <label for="j3">label 3</label>
+                    <input type="checkbox" class="niceCheck" id="j3" checked="checked" disabled="disabled">
+                </div>
+            </div>
+
+            <div class="css-checkbox">
+                <p>css-checkbox</p>
+                <div>
+                    <input type="checkbox" id="css1" tabindex="1" class="css">
+                    <label class="css-text" for="css1">label 1</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css2" tabindex="2" class="css" checked="checked">
+                    <label class="css-text" for="css2">label 2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css3" tabindex="3" class="css" checked="checked" disabled="disabled">
+                    <label class="css-text" for="css3">label 3</label>
+                </div>
+            </div>
+        </form>
     </body>
 </html>
