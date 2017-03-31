@@ -57,40 +57,33 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-
     margin: 0;
     margin-left: -22px;
 }
 
 .jcarousel-pagination a {
-    /*text-decoration: none;*/
     display: inline-block;
-
-    font-size: 11px;
-    height: 10px;
     width: 10px;
-    line-height: 10px;
-
-    background: #fff;
-    color: #4E443C;
-    border-radius: 10px;
-    text-indent: -9999px;
-
+    height: 10px;
     margin-right: 7px;
-
-    -webkit-box-shadow: 0 0 2px #4E443C;
-    -moz-box-shadow: 0 0 2px #4E443C;
-    box-shadow: 0 0 2px #4E443C;
+    border-radius: 10px;
+    background: #fff;
+    color: #4e443c;
+    font-size: 11px;
+    line-height: 10px;
+    text-indent: -9999px;
+    -moz-box-shadow: 0 0 2px #4e443c;
+    -webkit-box-shadow: 0 0 2px #4e443c;
+    box-shadow: 0 0 2px #4e443c;
 }
 
 .jcarousel-pagination a.active {
-    background: #4E443C;
+    background: #4e443c;
     color: #fff;
+    -moz-box-shadow: 0 0 2px #f0efe7;
+    -webkit-box-shadow: 0 0 2px #f0efe7;
+    box-shadow: 0 0 2px #f0efe7;
     opacity: 1;
-
-    -webkit-box-shadow: 0 0 2px #F0EFE7;
-    -moz-box-shadow: 0 0 2px #F0EFE7;
-    box-shadow: 0 0 2px #F0EFE7;
 }
 
 /*select*/
@@ -115,11 +108,6 @@ p {
     width: 30%;
     float: left;
 }
-
-/*.jquery-checkbox,
-.css-checkbox div {
-    margin-bottom: 10px;
-}*/
 
 .niceCheck {
     display: inline-block;
